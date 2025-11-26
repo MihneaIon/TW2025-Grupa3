@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Speedee', Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #292929;
+}
+
+
+.product-detail {
+    background-color: #ffffff;
+    padding: 80px 40px 60px 40px;
+}
+
+.detail-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.detail-content {
+    flex: 0 0 auto;
+    text-align: left;
+}
+
+.detail-title {
+    font-size: 64px;
+    font-weight: 900;
+    color: #292929;
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+
+.detail-subtitle {
+    font-size: 16px;
+    color: #292929;
+    font-weight: 400;
+}
+
+.detail-image {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+
+.details-button-section {
+    background-color: #ffffff;
+    padding: 0 40px 80px 40px;
+}
+
+.details-btn {
+    display: block;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #ffbc0d;
+    color: #292929;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 22px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.details-btn:hover {
+    background-color: #f5b700;
+}
+
+
+.ingredients-section {
+    background-color: #ffffff;
+    padding: 0 40px 80px 40px;
+}
+
+.ingredients-section > * {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients-text {
+    font-size: 13px;
+    line-height: 1.7;
+    color: #292929;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.allergen-info {
+    font-size: 13px;
+    line-height: 1.7;
+    color: #292929;
+    margin-bottom: 25px;
+}
+
+.nutrition-info {
+    margin-top: 20px;
+}
+
+.nutrition-info p {
+    font-size: 13px;
+    line-height: 1.7;
+    color: #292929;
+    margin-bottom: 5px;
+}
+
+.related-products {
+    background-color: #f5f5f5;
+    padding: 60px 40px 80px 40px;
+}
+
+.related-grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.related-grid-bottom {
+    grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 0;
+}
+
+.related-grid-bottom .related-item:first-child {
+    grid-column: 2 / 3;
+}
+
+.related-grid-bottom .related-item:last-child {
+    grid-column: 3 / 4;
+}
+
+.related-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.related-item img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.related-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: #292929;
+    line-height: 1.4;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .detail-container {
+        gap: 80px;
+    }
+
+    .detail-title {
+        font-size: 52px;
+    }
+
+    .detail-image {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 968px) {
+    .detail-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .detail-content {
+        text-align: center;
+    }
+
+    .detail-title {
+        font-size: 42px;
+    }
+
+    .detail-image {
+        width: 350px;
+        height: 350px;
+    }
+
+    .related-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .related-grid-bottom {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .related-grid-bottom .related-item:first-child {
+        grid-column: 1 / 2;
+    }
+
+    .related-grid-bottom .related-item:last-child {
+        grid-column: 2 / 3;
+    }
+
+    .related-item img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-detail {
+        padding: 40px 20px 40px 20px;
+    }
+
+    .details-button-section {
+        padding: 0 20px 40px 20px;
+    }
+
+    .ingredients-section {
+        padding: 0 20px 40px 20px;
+    }
+
+    .related-products {
+        padding: 40px 20px 60px 20px;
+    }
+
+    .detail-title {
+        font-size: 32px;
+    }
+
+    .detail-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .related-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .related-grid-bottom {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .related-grid-bottom .related-item:first-child {
+        grid-column: 1 / 2;
+    }
+
+    .related-item img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .related-name {
+        font-size: 13px;
+    }
+}
