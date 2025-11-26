@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #1c3faa; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.content {
+  max-width: 50%;
+}
+
+.content h2 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.content h1 {
+  font-size: 48px;
+  margin: 10px 0;
+  color: #ccb4ff;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.content button {
+  background-color: #e0d5f7;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #000;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(2, 120px);
+  gap: 20px;
+}
+
+.media-card, .day {
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.media-card {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.day {
+  border: 2px solid white;
+  font-size: 20px;
+  line-height: 1.2;
+}
+ 
