@@ -2,11 +2,12 @@
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
-    <title>Dexonline – Exemplu HTML Mare</title>
+    <title>Dexonline – Exemplu Dark Mode</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-    <table border="1" width="100%">
+    <table border="0" width="100%">
         <tr>
             <td align="left">
                 <a href="#">Despre noi</a> |
@@ -19,70 +20,65 @@
                     <select>
                         <option>Română</option>
                         <option>English</option>
-                        <option>Español</option>
-                        <option>Français</option>
                     </select>
                 </form>
-
                 ☀
-
                 <a href="#">Anonim</a>
-
-                <button>Donează</button>
+                <button class="btn-doneaza">Donează</button>
             </td>
         </tr>
     </table>
 
     <br><br>
 
-    <table border="1" width="100%">
+    <table border="0" width="100%">
         <tr>
             <td align="center">
                 <img src="./poze index/logo.png" width="50%" alt="Logo Dexonline">
                 <br>
-                <p>Dicționare ale limbii române</p>
+                <p style="color: #bbb;">Dicționare ale limbii române</p>
             </td>
         </tr>
     </table>
 
     <br><br>
 
-    <table border="1" width="100%">
+    <table border="0" width="100%">
         <tr>
             <td align="center">
                 <h2>Caută un cuvânt</h2>
                 <form>
-                    <input type="text" placeholder="cuvânt" size="50"> <button type="submit">caută</button>
+                    <input type="text" placeholder="cuvânt" size="50" class="search-input"> 
+                    <button type="submit" class="btn-cauta">caută</button>
                 </form>
-                <a href="#">opțiuni</a>
+                <br>
+                <a href="#" style="font-size: 14px;">opțiuni</a>
             </td>
         </tr>
     </table>
 
     <br>
 
-    <table border="1" width="100%">
+    <table border="0" width="100%" cellspacing="10">
         <tr>
-            <td width="33%" valign="top">
-                <img src="./poze index/pahar.jpg.png" align="right" width="100" alt="Imagine Cuvântul Zilei">
-                
+            <td width="33%" valign="top" class="card card-albastru">
+                <img src="./poze index/pahar.jpg.png" align="right" width="80" alt="Cuvantul Zilei">
                 <h3>Cuvântul zilei</h3>
                 <p>chercheli</p>
             </td>
 
-            <td width="33%" valign="top">
-                <img src="./poze index/rPET.jpeg" align="right" width="100" alt="Imagine Cuvântul Lunii">
-                
+            <td width="33%" valign="top" class="card card-verde">
+                <img src="./poze index/rPET.jpeg" align="right" width="80" alt="Cuvantul Lunii">
                 <h3>Cuvântul lunii</h3>
                 <p>rPET</p>
             </td>
 
-            <td width="33%" valign="top">
+            <td width="33%" valign="top" class="card card-mov">
                 <h3>Newsletter</h3>
                 <p>Dorești să te abonezi?</p>
                 <form>
-                    <input type="email" placeholder="email">
-                    <button>Da!</button>
+                    <input type="email" placeholder="email" class="search-input">
+                    <button class="btn-cauta">Da!</button>
                 </form>
             </td>
         </tr>
@@ -90,11 +86,10 @@
 
     <br>
 
-    <table border="1" width="100%">
+    <table border="0" width="100%" cellspacing="10">
         <tr>
-            <td width="33%" valign="top">
-                <img src="./poze index/thumb.png" align="right" width="80" alt="Imagine Jocuri">
-                
+            <td width="33%" valign="top" class="card card-roz">
+                <img src="./poze index/thumb.png" align="right" width="60" alt="Jocuri">
                 <h3>Jocuri</h3>
                 <ul>
                     <li>spânzurătoarea</li>
@@ -103,16 +98,14 @@
                 </ul>
             </td>
 
-            <td width="33%" valign="top">
-                <img src="./poze index/papirus.png" align="right" width="100" alt="Imagine Articol">
-                
+            <td width="33%" valign="top" class="card card-rosu">
+                <img src="./poze index/papirus.png" align="right" width="80" alt="Articol">
                 <h3>Articolul lunii</h3>
                 <p>rută, derută, rutină</p>
             </td>
 
-            <td width="33%" valign="top">
-                <img src="./poze index/aleator.gif" align="right" width="80" alt="Imagine Zaruri">
-                
+            <td width="33%" valign="top" class="card card-galben">
+                <img src="./poze index/aleator.gif" align="right" width="60" alt="Zaruri">
                 <h3>Cuvânt aleatoriu</h3>
                 <p>giurgiuvea</p>
             </td>
@@ -121,11 +114,11 @@
 
     <br><br>
 
-    <table border="1" width="100%">
+    <table border="0" width="100%">
         <tr>
             <td align="center">
-                <p>Proiect întreținut de voluntari</p>
-                <p>© 2004–2025 dexonline</p>
+                <p style="color: gray;">Proiect întreținut de voluntari</p>
+                <p style="color: gray;">© 2004–2025 dexonline</p>
             </td>
         </tr>
     </table>

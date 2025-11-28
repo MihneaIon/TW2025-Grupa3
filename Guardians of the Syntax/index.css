@@ -1,49 +1,49 @@
-/* 1. Setări generale pentru toată pagina */
+
 body {
-    background-color: #121212; /* Negru închis (fundalul paginii) */
-    color: #e0e0e0;            /* Culoarea textului (alb-gri) */
-    font-family: Arial, sans-serif; /* Fontul textului */
+    background-color: #121212; 
+    color: #e0e0e0;            
+    font-family: Arial, sans-serif; 
 }
 
-/* 2. Link-urile (textul pe care dai click) */
+
 a {
-    color: #4CAF50;       /* Verde dexonline */
-    text-decoration: none; /* Fără linie sub text */
+    color: #4CAF50;
+    text-decoration: none; 
 }
 
 a:hover {
-    text-decoration: underline; /* Linie sub text când pui mouse-ul */
+    text-decoration: underline; 
 }
 
-/* 3. Titlurile */
+
 h2, h3 {
-    color: #ffffff; /* Titluri albe */
-    margin-top: 0;  /* Să nu aibă spațiu mare deasupra */
+    color: #ffffff; 
+    margin-top: 0;  
 }
 
-/* 4. Căsuțele de scris (Input) */
+
 .search-input {
-    background-color: #1e1e1e; /* Fundal închis la căsuță */
-    border: 1px solid #4CAF50; /* Margine verde subțire */
-    color: white;              /* Textul pe care îl scrii e alb */
-    padding: 10px;             /* Spațiu în interiorul căsuței */
-    border-radius: 5px;        /* Colțuri rotunjite */
+    background-color: #1e1e1e; 
+    border: 1px solid #4CAF50; 
+    color: white;              
+    padding: 10px;             
+    border-radius: 5px;       
 }
 
-/* 5. Butonul de Căutare (Verde) */
+
 .btn-cauta {
-    background-color: #4CAF50; /* Verde */
-    color: black;              /* Text negru */
-    border: none;              /* Fără margine */
-    padding: 10px 20px;        /* Buton mai grăsuț */
-    cursor: pointer;           /* Mânuță când pui mouse-ul */
-    border-radius: 5px;        /* Colțuri rotunjite */
+    background-color: #4CAF50; 
+    color: black;              
+    border: none;             
+    padding: 10px 20px;       
+    cursor: pointer;         
+    border-radius: 5px;       
     font-weight: bold;
 }
 
-/* 6. Butonul Galben (Donează) */
+
 .btn-doneaza {
-    background-color: #FFC107; /* Galben */
+    background-color: #FFC107; 
     border: none;
     padding: 5px 15px;
     border-radius: 3px;
@@ -51,69 +51,68 @@ h2, h3 {
     font-weight: bold;
 }
 
-/* 7. Cardurile (Cutiuțele cu Cuvântul zilei etc.) */
+
 .card {
-    background-color: #1e1e1e; /* Gri închis, puțin mai deschis ca fundalul */
-    border: 1px solid #333;    /* O margine gri foarte fină */
-    padding: 15px;             /* Spațiu între text și marginea cutiei */
-    border-radius: 8px;        /* Colțuri rotunjite frumos */
+    background-color: #1e1e1e; 
+    border: 1px solid #333;    
+    padding: 15px;             
+    border-radius: 8px;        
 }
 
-/* Lista de la jocuri (să arate mai bine) */
+
 ul {
     padding-left: 20px;
-    color: #4CAF50; /* Buline verzi */
+    color: #4CAF50; 
 }
 
 li {
-    color: #cccccc; /* Textul listei gri deschis */
+    color: #cccccc; 
 }
 
-/* --- Efecte de Culoare la Hover (Când pui mouse-ul) --- */
 
-/* 1. Pentru Căsuța de Căutare (să se facă verde când scrii) */
+
+
 .search-input:focus {
-    outline: none; /* Scoate linia standard urâtă */
-    border-color: #4CAF50; /* Verde */
-    box-shadow: 0 0 8px #4CAF50; /* Strălucire verde */
+    outline: none; 
+    border-color: #4CAF50; 
+    box-shadow: 0 0 8px #4CAF50; 
 }
 
-/* 2. Card ROZ (Cuvântul zilei) */
+
 .card-roz:hover {
-    border-color: #ff69b4; /* Culoare HotPink */
-    box-shadow: 0 0 10px #ff69b4; /* Strălucire roz */
-    transition: 0.3s; /* Să se schimbe lin */
+    border-color: #ff69b4; 
+    box-shadow: 0 0 10px #ff69b4; 
+    transition: 0.3s; 
 }
 
-/* 3. Card ALBASTRU */
+
 .card-albastru:hover {
     border-color: #2196F3;
     box-shadow: 0 0 10px #2196F3;
     transition: 0.3s;
 }
 
-/* 4. Card VERDE */
+
 .card-verde:hover {
     border-color: #4CAF50;
     box-shadow: 0 0 10px #4CAF50;
     transition: 0.3s;
 }
 
-/* 5. Card GALBEN */
+
 .card-galben:hover {
     border-color: #FFC107;
     box-shadow: 0 0 10px #FFC107;
     transition: 0.3s;
 }
 
-/* 6. Card ROȘU */
+
 .card-rosu:hover {
     border-color: #f44336;
     box-shadow: 0 0 10px #f44336;
     transition: 0.3s;
 }
 
-/* 7. Card MOV */
 .card-mov:hover {
     border-color: #9c27b0;
     box-shadow: 0 0 10px #9c27b0;
