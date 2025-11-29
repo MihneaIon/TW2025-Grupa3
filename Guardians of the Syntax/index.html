@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Dexonline – Exemplu Dark Mode</title>
+    
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -10,8 +11,18 @@
     <table border="0" width="100%">
         <tr>
             <td align="left">
-                <a href="#">Despre noi</a> |
-                <a href="#">Implică-te</a> |
+                
+                <div class="meniu-dropdown">
+                    <span class="buton-meniu">Despre noi ▼</span>
+                    
+                    <div class="continut-meniu">
+                        
+                        <a href="#sectiune-newsletter">Newsletter</a>
+                    </div>
+                </div>
+            
+               
+                | <a href="#">Implică-te</a> |
                 <a href="#">Resurse</a>
             </td>
 
@@ -34,6 +45,7 @@
     <table border="0" width="100%">
         <tr>
             <td align="center">
+               
                 <img src="./poze index/logo.png" width="50%" alt="Logo Dexonline">
                 <br>
                 <p style="color: #bbb;">Dicționare ale limbii române</p>
@@ -73,7 +85,8 @@
                 <p>rPET</p>
             </td>
 
-            <td width="33%" valign="top" class="card card-mov">
+           
+            <td width="33%" valign="top" class="card card-mov" id="sectiune-newsletter">
                 <h3>Newsletter</h3>
                 <p>Dorești să te abonezi?</p>
                 <form>

@@ -5,7 +5,6 @@ body {
     font-family: Arial, sans-serif; 
 }
 
-
 a {
     color: #4CAF50;
     text-decoration: none; 
@@ -15,12 +14,10 @@ a:hover {
     text-decoration: underline; 
 }
 
-
 h2, h3 {
     color: #ffffff; 
     margin-top: 0;  
 }
-
 
 .search-input {
     background-color: #1e1e1e; 
@@ -29,7 +26,6 @@ h2, h3 {
     padding: 10px;             
     border-radius: 5px;       
 }
-
 
 .btn-cauta {
     background-color: #4CAF50; 
@@ -41,7 +37,6 @@ h2, h3 {
     font-weight: bold;
 }
 
-
 .btn-doneaza {
     background-color: #FFC107; 
     border: none;
@@ -51,14 +46,12 @@ h2, h3 {
     font-weight: bold;
 }
 
-
 .card {
     background-color: #1e1e1e; 
     border: 1px solid #333;    
     padding: 15px;             
     border-radius: 8px;        
 }
-
 
 ul {
     padding-left: 20px;
@@ -68,9 +61,6 @@ ul {
 li {
     color: #cccccc; 
 }
-
-
-
 
 .search-input:focus {
     outline: none; 
@@ -85,13 +75,11 @@ li {
     transition: 0.3s; 
 }
 
-
 .card-albastru:hover {
     border-color: #2196F3;
     box-shadow: 0 0 10px #2196F3;
     transition: 0.3s;
 }
-
 
 .card-verde:hover {
     border-color: #4CAF50;
@@ -99,13 +87,11 @@ li {
     transition: 0.3s;
 }
 
-
 .card-galben:hover {
     border-color: #FFC107;
     box-shadow: 0 0 10px #FFC107;
     transition: 0.3s;
 }
-
 
 .card-rosu:hover {
     border-color: #f44336;
@@ -117,4 +103,48 @@ li {
     border-color: #9c27b0;
     box-shadow: 0 0 10px #9c27b0;
     transition: 0.3s;
+}
+
+
+
+.meniu-dropdown {
+    
+    display: inline-block; 
+    position: relative;    
+}
+
+.buton-meniu {
+    color: #4CAF50;      
+    cursor: pointer;     
+    font-weight: bold;
+    padding-right: 5px;  
+}
+
+.continut-meniu {
+    display: none;       
+    position: absolute;  
+    background-color: #1e1e1e; 
+    min-width: 140px;    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5); 
+    border: 1px solid #4CAF50; 
+    z-index: 100;        
+    border-radius: 5px;
+    top: 100%;           
+    left: 0;
+}
+
+.continut-meniu a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;      
+}
+
+.continut-meniu a:hover {
+    background-color: #333; 
+}
+
+
+.meniu-dropdown:hover .continut-meniu {
+    display: block;
 }
