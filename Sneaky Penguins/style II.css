@@ -1,0 +1,14 @@
+body{
+background-color: #cc94c7;
+width: 100%;
+display: flex;
+align-items: flex-end;
+padding: 80px
+}
+
+.hero h1 {
+    font-size: 80px;
+    line-height: 1.1;
+    font-weight: 800;
+    color: #0d0d18; /* negru-albăstrui */
+}
