@@ -1,0 +1,84 @@
+
+body {
+    background-color: #121212; 
+    color: #dddddd;            
+    font-family: Arial, sans-serif; 
+    margin: 0;                
+    padding: 20px;            
+}
+
+
+a {
+    color: #2ecc71;      
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+
+h2, h3 {
+    color: #ffffff; 
+    font-weight: normal; 
+}
+
+
+input[type="text"], 
+input[type="email"] {
+    background-color: #333333; 
+    border: 1px solid #555555; 
+    color: white;              
+    padding: 8px;              
+}
+
+
+button {
+    padding: 8px 15px;    
+    border: none;         
+    cursor: pointer;      
+    font-weight: bold;    
+    color: black;        
+}
+
+
+.buton-verde {
+    background-color: #2ecc71; 
+}
+
+
+.buton-galben {
+    background-color: #f1c40f; 
+}
+
+
+ul {
+    list-style-type: disc; 
+    line-height: 1.6;      
+}
+
+
+.data-postare {
+    color: #dddddd;
+}
+
+
+.detalii-gri {
+    color: #888888; 
+    font-size: 0.9em; 
+}
+
+
+.meniu-limba {
+    background-color: #333; 
+    border: 1px solid #555;
+    padding: 10px;
+    position: absolute;     
+    list-style: none;       
+}
+
+
+hr {
+    border: 0;
+    border-top: 1px solid #444; 
+}
