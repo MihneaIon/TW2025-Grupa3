@@ -21,6 +21,7 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     gap: 150px;
 }
@@ -162,8 +163,6 @@ body {
     color: #292929;
     line-height: 1.4;
 }
-
-/* Responsive */
 @media (max-width: 1200px) {
     .detail-container {
         gap: 80px;
