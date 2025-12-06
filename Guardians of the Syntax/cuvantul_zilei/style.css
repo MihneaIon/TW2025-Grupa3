@@ -139,10 +139,13 @@ nav button {
     width: 6%;
     display: inline-block;
     text-align: right;
+    font-size: 14px;
 }
 
 h2 {
     font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 25px;
 }
 
 .article-title a {
@@ -208,4 +211,109 @@ h2 {
     padding: 8px 16px;
     border-radius: 0px 0px 5px 5px;
     font-size: 14px;
+}
+
+.back-button-2 {
+    float: left;
+}
+.section-top-bar p {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+#table-container {
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+td, th {
+    border: 1px solid #343434;
+    padding: 8px;
+}
+
+td {
+    height: 110px;
+}
+
+td * {
+    margin: 2px;
+}
+
+.align-center{
+    text-align: center;
+    text-decoration: none;
+}
+
+td img {
+    display: block;
+    margin: auto;
+}
+
+.element-orizontal {
+    border: 1px solid #343434;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    min-height: 120px;
+}
+
+#table-container a {
+    text-decoration: none;
+}
+
+#table-container a:hover {
+    text-decoration: underline;
+    color: #56a06a;
+}
+
+.element-orizontal a {
+    text-decoration: none;
+}
+
+.element-orizontal img {
+    float: right;
+}
+
+.element-orizontal p:first-of-type {
+    margin-top: 0;
+}
+
+/* footer css */
+
+.footer {
+    padding-top: 12px;
+    max-width: 57%;
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer p:last-of-type{
+    word-spacing: 5px;
+}
+
+.footer hr {
+    border: 1px solid #343434;
+}
+
+.no-spacing {
+    word-spacing: normal;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #6cda89;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #56a06a;
 }
