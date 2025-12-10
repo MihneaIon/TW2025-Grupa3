@@ -1,0 +1,211 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: #fff; 
+    color: #292929; 
+}
+
+a { 
+    text-decoration: none; 
+    color: inherit; 
+}
+
+
+header { 
+    background-color: white; 
+    border-bottom: 1px solid #e0e0e0; 
+    box-shadow: 0 2px 3px -3px rgba(0, 0, 0, 0.15); 
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav { 
+    max-width: 1920px; 
+    margin: 0 auto; 
+    padding: 12px 0; 
+    text-align: center; 
+}
+
+#logo { 
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-right: 46px; 
+} 
+
+#logo-img { 
+    height: 81px; 
+    width: auto; 
+}
+
+#nav-links { 
+    display: inline-block; 
+    vertical-align: middle; 
+    padding: 0; 
+} 
+
+#nav-links li { 
+    display: inline-block; 
+    margin-right: 35px; 
+}
+
+#nav-links a { 
+    color: black; 
+    font-size: 1.1vw; 
+    font-weight: 700; 
+    padding: 6px 0; 
+}
+
+#nav-links a:hover { 
+    color: #cc0000; 
+}
+
+#nav-separator { 
+    display: none; 
+}
+
+#hero { 
+    text-align: center; 
+    padding: 120px 23px 35px; 
+    background-color: #fff; 
+}
+
+#hero h1 { 
+    font-size: 3.5vw; 
+    margin-bottom: 17px; 
+}
+
+#hero-subtitle { 
+    font-size: 1.2vw; 
+    font-weight: 700; 
+    margin-bottom: 12px; 
+    
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 15px; 
+    width: fit-content;
+    margin: 0 auto 12px;
+}
+
+#hero-subtitle::before,
+#hero-subtitle::after {
+    content: '';
+    width: 60px; 
+    height: 2px;
+    background-color: #292929; 
+    display: inline-block;
+}
+
+#hero-desc { 
+    font-size: 1vw; 
+    color: #707070;
+    max-width: 748px; 
+    margin: 0 auto; 
+}
+
+#products-container { 
+    max-width: 1610px; 
+    margin: 0 auto; 
+    padding: 46px 23px; 
+    text-align: center; 
+}
+
+#products-grid { 
+    text-align: center; 
+    font-size: 0; 
+}
+
+#products-grid article {
+    width: 47%; 
+    display: inline-block;
+    vertical-align: top;
+    background: #fff; 
+    margin: 5px 1.15%; 
+    padding: 0;
+    font-size: 18px; 
+    min-height: 380px; 
+}
+
+#products-grid article div { 
+    overflow: hidden; 
+}
+
+.product-info { 
+    float: left; 
+    width: 50%; 
+    padding: 90px 23px 23px 23px; 
+}
+
+.product-info h2 { 
+    font-size: 1.3vw; 
+    margin-bottom: 12px;
+    color: #2f5c3c; 
+}
+
+.product-info button { 
+    background-color: #ffbc0d; 
+    color: #000000; 
+    border: none; 
+    padding: 9px 17px; 
+    cursor: pointer; 
+    border-radius:10px;
+}
+
+#products-grid img { 
+    float: right; 
+    width: 80%; 
+    height: auto; 
+    padding: 0; 
+    margin: 20px 0 0 20%; 
+    object-fit: contain;
+}
+
+
+.footer-grid{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+    width: 1170px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.right{
+    text-align: right;
+}
+
+.section{
+    background-image: url("1.jpg") ;
+    width: 570px;
+    height: 540px;
+}
+
+.menu-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+    width: 40%;
+}
+
+.box{
+    background-image: url(1.jpg);
+}
+
+.overlay{
+  position:absolute;
+  bottom:10px;
+  left:10px;
+  color:white;
+}
