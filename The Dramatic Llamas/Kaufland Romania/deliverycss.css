@@ -8,8 +8,8 @@ button {
   padding: 12px 22px;
   border: none;
   border-radius: 10px;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 450;
   cursor: pointer;
   transition: .25s;
 }
@@ -85,6 +85,38 @@ button:hover {
 .search button:hover {
   background: #9e0000;
 }
+
+/* -------------------------------- */
+/*            MAIN              */
+/* -------------------------------- */
+#imagine img{
+  width: 90%;
+  height: 25%;
+}
+.a-headline{
+  font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.t-typography__title-sub-3 {
+    font-size: 1.5rem;
+    line-height: 1.333;
+}
+#comanda a{
+  text-decoration: underline;
+  color: inherit;
+  
+}
+.options img{
+   width: 50%;
+  height: 25%;
+}
+.options a{
+  text-decoration: none;
+  color: inherit;
+  
+}
+
 
 /* -------------------------------- */
 /* FOOTER                           */
