@@ -503,14 +503,15 @@ body {
 
 
 .image-right3{
-    position: absolute;
+    position: static;
     right: 100px;
     top: 100px;
+   margin-bottom: 100px;
 }
 
 .image-right3 img{
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
     border-radius: 30px;
 }
 
