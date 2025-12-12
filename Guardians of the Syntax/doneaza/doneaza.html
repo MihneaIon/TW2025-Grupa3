@@ -18,7 +18,7 @@
   <body>
 
     <nav class="nav-bar">
-      <a href="https://dexonline.ro/" class="nav-logo"> <img src="../res_shared/logo.png" alt=""/> </a>
+      <a href="../index.html" class="nav-logo"> <img src="../res_shared/logo.png" alt=""/> </a>
       <ul class="nav-menu-left">
             <li>
               <a href="">Despre noi</a>
@@ -48,10 +48,12 @@
               </a>
             </li>
             <li>
-            <button class="nav-donate">
-            <img src="../res_shared/card.png" alt="" />
-            Donează
-          </button>
+              <a href="./doneaza.html">
+              <button class="nav-donate">
+              <img src="../res_shared/card.png" alt="" />
+              Donează
+            </button>
+            </a>
             </li>
           </ul>
     </nav>
@@ -61,39 +63,89 @@
       <h2 class="article-title">
         Donează
       </h2>
-      <p>
+      <p class="space-after">
         Dacă ai ajuns pe această pagină, probabil că știi deja ce este dexonline (dacă nu, poți afla din <a href="">pagina de informații</a>). Poți contribui la dezvoltarea proiectului dexonline și prin donarea unei sume de bani. 
       </p>
       <div class="dono-box">
 
         <div class="card">
           <div class="card-top">
-            Donează online (cu cardul) 
+            Donează online (cu cardul)
+            <img src="../res_shared/info.png" alt="">
           </div>
           <div class="card-body">
-            Lorem ipsum six seven
+            <form action="">
+              <div class="form-row">
+              <label for="suma">Suma</label>
+              <select name="suma" id="suma">
+                <option value="20">20 lei</option>
+                <option value="50">50 lei</option>
+                <option value="100">100 lei</option>
+                <option value="150">150 lei</option>
+                <option value="200">200 lei</option>
+                <option value="250">250 lei</option>
+                <option value="500">500 lei</option>
+              </select>
+              </div>
+
+              <div class="form-row">
+              <label for="email">E-mail *</label>
+              <input type="email" id="email">
+              </div>
+              <div class="form-row align-center" >
+              <input type="submit" id="button-card" value="">
+              </div>
+            </form>
           </div>
         </div>
+        
         <div class="card">
           <div class="card-top">
-            Donează online (cu cardul) 
+            Donează prin PayPal 
+            <img src="../res_shared/info.png" alt="">
           </div>
           <div class="card-body">
-            Lorem ipsum six seven
+            
+              <div class="form-row align-center">
+              <input type="image" src="./btn_donateCC_LG.gif">
+              </div>
           </div>
         </div>
+
         <div class="card">
           <div class="card-top">
-            Donează online (cu cardul) 
+            Donează prin transfer bancar 
+            <img src="../res_shared/info.png" alt="">            
           </div>
           <div class="card-body">
-            Lorem ipsum six seven
+            
+              <div class="card3-row">
+                <span>Beneficiar</span>
+                <span>Asociația dexonline</span>
+              </div>
+              <div class="card3-row">
+                <span>CIF</span>
+                <span>30855345</span>
+              </div>
+              <div class="card3-row">
+                <span>Adresa</span>
+                <span>strada Remetea nr. 20, București, sector 2</span>
+              </div>
+              <div class="card3-row">
+                <span>Cont</span>
+                <span>Banca Transilvania, sucursala Obor</span>
+              </div>
+              <div class="card3-row">
+                <span>RON</span>
+                <span>RO96 BTRL 0440 1205 M306 19XX</span>
+              </div>
+
           </div>
         </div>
 
       </div>
 
-      <h2 class="article-title">
+      <h2 class="article-title no-space-before">
         Redirecționează 3,5% din impozitul pe venit
       </h2>
       <p>
