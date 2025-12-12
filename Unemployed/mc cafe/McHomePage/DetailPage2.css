@@ -269,3 +269,39 @@ body {
         font-size: 13px;
     }
 }
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 40px 80px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    margin-top: 60px;
+}
+
+.footer-grid h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #292929;
+}
+
+.footer-grid ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-grid ul li {
+    margin-bottom: 10px;
+    color: #292929;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-grid ul li:hover {
+    text-decoration: underline;
+}
+
+.footer-grid ul li.right {
+    text-align: right;
+}
