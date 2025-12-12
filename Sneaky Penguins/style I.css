@@ -184,3 +184,10 @@ body {
   height: auto;
   object-fit: contain;
 }
+
+.img-right{
+width: 700px;
+    height: auto;
+    display: block
+
+}
