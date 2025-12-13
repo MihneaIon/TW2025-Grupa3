@@ -269,10 +269,11 @@ body {
         font-size: 13px;
     }
 }
+
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
+    grid-template-columns: 2fr 1.5fr 1.2fr 1.5fr;
+    gap: 30px;
     padding: 40px 80px;
     background-color: #fff;
     border-top: 1px solid #ccc;
@@ -305,6 +306,7 @@ body {
 .footer-grid ul li.right {
     text-align: right;
 }
+
 a { 
     text-decoration: none; 
     color: inherit; 
@@ -351,7 +353,7 @@ nav {
 
 #nav-links li { 
     display: inline-block; 
-    margin-right: 35px; 
+    margin-right: 35px;
 }
 
 #nav-links a { 

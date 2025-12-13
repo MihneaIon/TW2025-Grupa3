@@ -21,7 +21,6 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    text-align: center;
     align-items: center;
     gap: 150px;
 }
@@ -163,6 +162,8 @@ body {
     color: #292929;
     line-height: 1.4;
 }
+
+/* Responsive */
 @media (max-width: 1200px) {
     .detail-container {
         gap: 80px;
@@ -268,10 +269,11 @@ body {
         font-size: 13px;
     }
 }
+
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
+    grid-template-columns: 2fr 1.5fr 1.2fr 1.5fr;
+    gap: 30px;
     padding: 40px 80px;
     background-color: #fff;
     border-top: 1px solid #ccc;
@@ -304,6 +306,7 @@ body {
 .footer-grid ul li.right {
     text-align: right;
 }
+
 a { 
     text-decoration: none; 
     color: inherit; 
@@ -350,7 +353,7 @@ nav {
 
 #nav-links li { 
     display: inline-block; 
-    margin-right: 35px; 
+    margin-right: 35px;
 }
 
 #nav-links a { 

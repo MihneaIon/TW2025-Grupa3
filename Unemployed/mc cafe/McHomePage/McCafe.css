@@ -243,10 +243,11 @@ body {
         height: auto;
     }
 }
+
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
+    grid-template-columns: 2fr 1.5fr 1.2fr 1.5fr;
+    gap: 15px;
     padding: 40px 80px;
     background-color: #fff;
     border-top: 1px solid #ccc;
