@@ -2,141 +2,148 @@
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dexonline – Exemplu Dark Mode</title>
     <link rel="stylesheet" href="index.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"/>
 </head>
 <body>
 
-    <table border="0" width="100%">
-        <tr>
-            <td align="left">
-                <div class="meniu-dropdown">
-                    <span class="buton-meniu">Despre noi ▼</span>
-                    <div class="continut-meniu">
-                        <a href="#sectiune-newsletter">Newsletter</a>
-                    </div>
-                </div>
-                | <a href="#">Implică-te</a> |
-                <a href="#">Resurse</a>
-            </td>
+    <nav class="nav-bar">
+        <ul class="nav-menu-left">
+              <li><a href="#">Despre noi ▼</a></li>
+              <li><a href="#">Implică-te</a></li>
+              <li><a href="#">Resurse</a></li>
+        </ul>
 
-            <td align="right">
-                <form style="display:inline;">
-                    <select>
-                        <option>Română</option>
-                        <option>English</option>
-                    </select>
-                </form>
-                ☀
+        <ul class="nav-menu-right">
+              <li>
+                <a href="#"><img src="../res_shared/lang.png" alt="Lang" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="../res_shared/light.png" alt="Light" /></a>
+              </li>
+              <li class="no-padding-r">
+                <a href="#"><img src="../res_shared/person.png" alt="User" /></a>
+              </li>
+              <li class="no-padding">
                 <a href="#">Anonim</a>
-                
-            <a href="../doneaza/doneaza.html">
-                <button class="btn-doneaza">Donează</button>
-            </a>
-                
-            </td>
-        </tr>
-    </table>
-
-    <br><br>
-
-    <table border="0" width="100%">
-        <tr>
-            <td align="center">
-                <img src="./poze index/logo.png" width="50%" alt="Logo Dexonline">
-                <br>
-                <p style="color: #bbb;">Dicționare ale limbii române</p>
-            </td>
-        </tr>
-    </table>
-
-    <br><br>
-
-    <table border="0" width="100%">
-        <tr>
-            <td align="center">
-                <h2>Caută un cuvânt</h2>
-                <form>
-                    <input type="text" placeholder="cuvânt" size="50" class="search-input"> 
-                    <button type="submit" class="btn-cauta">caută</button>
-                </form>
-                <br>
-                <a href="#" style="font-size: 14px;">opțiuni</a>
-            </td>
-        </tr>
-    </table>
-
-    <br>
-
-   <table border="0" width="100%" cellspacing="10">
-        <tr>
-            <td width="33%" valign="top" class="card card-albastru">
-                <a href="../cuvantul_zilei/cuvantul_zilei.html" style="text-decoration: none; color: inherit; display: block; height: 100%;">
-                    <img src="./poze index/pahar.jpg.png" align="right" width="80" alt="Cuvantul Zilei">
-                    <h3>Cuvântul zilei</h3>
-                    <p>chercheli</p>
+              </li>
+              <li>
+                <a href="../doneaza/doneaza.html">
+                    <button class="nav-donate">
+                        <img src="../res_shared/card.png" alt="" />
+                        Donează
+                    </button>
                 </a>
-            </td>
+              </li>
+        </ul>
+    </nav>
 
-            <td width="33%" valign="top" class="card card-verde">
-                <a href="../cuvantul_lunii/Cuvântul lunii noiembrie 2025.html" style="text-decoration: none; color: inherit; display: block; height: 100%;">
-                    <img src="./poze index/rPET.jpeg" align="right" width="80" alt="Cuvantul Lunii">
-                    <h3>Cuvântul lunii</h3>
-                    <p>rPET</p>
-                </a>
-            </td>
+    <div class="content">
+        
+        <br><br>
 
-            <td width="33%" valign="top" class="card card-mov" id="sectiune-newsletter">
-                <h3>Newsletter</h3>
-                <p>Dorești să te abonezi?</p>
-                <input type="email" placeholder="email" class="search-input">
-                <a href="../newsletter/newsletter.html">
-                    <button class="btn-cauta">Da!</button>
-                </a>
-            </td>
-        </tr>
-    </table>
+        <table border="0" width="100%">
+            <tr>
+                <td align="center">
+                    <img src="./poze index/logo.png" width="50%" alt="Logo Dexonline">
+                    <br>
+                    <p style="color: #bbb;">Dicționare ale limbii române</p>
+                </td>
+            </tr>
+        </table>
 
-    <br>
+        <br><br>
 
-    <table border="0" width="100%" cellspacing="10">
-        <tr>
-            <td width="33%" valign="top" class="card card-roz">
-                <img src="./poze index/thumb.png" align="right" width="60" alt="Jocuri">
-                <h3>Jocuri</h3>
-                <ul>
-                    <li>spânzurătoarea</li>
-                    <li>moara cuvintelor</li>
-                    <li>omleta cuvintelor</li>
-                </ul>
-            </td>
+        <table border="0" width="100%">
+            <tr>
+                <td align="center">
+                    <h2>Caută un cuvânt</h2>
+                    <form>
+                        <input type="text" placeholder="cuvânt" size="50" class="search-input"> 
+                        <button type="submit" class="btn-cauta">caută</button>
+                    </form>
+                    <br>
+                    <a href="#" style="font-size: 14px;">opțiuni</a>
+                </td>
+            </tr>
+        </table>
 
-            <td width="33%" valign="top" class="card card-rosu">
-                <a href="../cuvantul_lunii/Articolul lunii noiembrie 2025.html" style="text-decoration: none; color: inherit; display: block; height: 100%;">
-                    <img src="./poze index/papirus.png" align="right" width="80" alt="Articol">
-                    <h3>Articolul lunii</h3>
-                    <p>rută, derută, rutină</p>
-                </a>
-            </td>
+        <br>
 
-            <td width="33%" valign="top" class="card card-galben">
-                <img src="./poze index/aleator.gif" align="right" width="60" alt="Zaruri">
-                <h3>Cuvânt aleatoriu</h3>
-                <p>giurgiuvea</p>
-            </td>
-        </tr>
-    </table>
+        <table border="0" width="100%" cellspacing="10">
+            <tr>
+                <td width="33%" valign="top" class="card card-albastru">
+                    <a href="../cuvantul_zilei/cuvantul_zilei.html" style="text-decoration: none; color: inherit; display: block; height: 100%;">
+                        <img src="./poze index/pahar.jpg.png" align="right" width="80" alt="Cuvantul Zilei">
+                        <h3>Cuvântul zilei</h3>
+                        <p>chercheli</p>
+                    </a>
+                </td>
 
-    <br><br>
+                <td width="33%" valign="top" class="card card-verde">
+                    <a href="../cuvantul_lunii/Cuvântul lunii noiembrie 2025.html" style="text-decoration: none; color: inherit; display: block; height: 100%;">
+                        <img src="./poze index/rPET.jpeg" align="right" width="80" alt="Cuvantul Lunii">
+                        <h3>Cuvântul lunii</h3>
+                        <p>rPET</p>
+                    </a>
+                </td>
 
-    <table border="0" width="100%">
-        <tr>
-            <td align="center">
-                <p style="color: gray;">Proiect întreținut de voluntari</p>
-                <p style="color: gray;">© 2004–2025 dexonline</p>
-            </td>
-        </tr>
-    </table>
+                <td width="33%" valign="top" class="card card-mov" id="sectiune-newsletter" style="border: none; height: auto;">
+    <img src="./poze index/plus.png" align="right" width="60" alt="Newsletter"> 
+            <h3>Newsletter</h3>
+        <p>Dorești să te abonezi?</p>
+            <input type="email" placeholder="email" class="search-input" style="width: 60%">
+                    <a href="../newsletter/newsletter.html">
+        <button class="btn-cauta" style="width: auto; padding: 10px;">Da!</button>
+                    </a>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table border="0" width="100%" cellspacing="10">
+            <tr>
+                <td width="33%" valign="top" class="card card-roz">
+                    <img src="./poze index/thumb.png" align="right" width="60" alt="Jocuri">
+                    <h3>Jocuri</h3>
+                    <ul>
+                        <li>spânzurătoarea</li>
+                        <li>moara cuvintelor</li>
+                        <li>omleta cuvintelor</li>
+                    </ul>
+                </td>
+
+                <td width="33%" valign="top" class="card card-rosu">
+                    <a href="../cuvantul_lunii/Articolul lunii noiembrie 2025.html" style="text-decoration: none; color: inherit; display: block; height: 100%;">
+                        <img src="./poze index/papirus.png" align="right" width="80" alt="Articol">
+                        <h3>Articolul lunii</h3>
+                        <p>rută, derută, rutină</p>
+                    </a>
+                </td>
+
+                <td width="33%" valign="top" class="card card-galben">
+                    <img src="./poze index/aleator.gif" align="right" width="60" alt="Zaruri">
+                    <h3 style="color: black;">Cuvânt aleatoriu</h3>
+                    <p style="color: black;">giurgiuvea</p>
+                </td>
+            </tr>
+        </table>
+        </div>
+
+    <div class="footer">
+        <hr />
+        <p>Copyright © 2004-2025 dexonline (https://dexonline.ro)</p>
+        <p>
+            <a href="">licență</a> • <a href="">confidențialitate</a> • <span class="no-spacing">găzduit de
+            <a href="">Hosterion</a></span>
+        </p>
+    </div>
 
 </body>
 </html>
