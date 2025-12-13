@@ -1,0 +1,43 @@
+body {
+position: relative;
+display: grid;
+grid-template-columns: minmax(320px, 1fr) 560px;
+gap: 0 48px;
+align-items: start;
+min-height: 100vh;
+margin: 0;
+padding: 56px 36px 96px;
+background:  #69060b;
+color:  #111827;
+line-height: 1.35;
+font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+body > div {
+grid-column: 1 / -1;
+max-width: 1200px;
+margin: 44px auto 0;
+padding: 32px 40px;
+background:#ffffff;
+border-radius: 12px;
+box-shadow: 0 24px 80px rgba(0,0,0,0.24);
+color: #111827;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px 28px;
+z-index: 6;
+}
+
+body > div a {
+display: flex;
+gap: 12px;
+align-items: center;
+text-decoration: none;
+color: inherit;
+padding: 12px 14px;
+border-radius: 10px;
+}
+
+body > div a img {
+width: 56px; height: 56px; border-radius: 12px; object-fit: cover; flex: 0 0 56px;
+}
