@@ -311,3 +311,66 @@ body {
         font-size: 22px;
     }
 }
+
+nav {
+    padding: 5px 100px;
+    background-color: #212121;
+    font-size: 16px;
+    height: 70px;
+}
+
+nav > *  {
+    vertical-align: middle;
+    padding: 0px 20px;
+}
+
+nav > * > *  {
+    vertical-align: middle;
+}
+
+nav ul{
+    display: inline-block;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0px 8px;;
+}
+
+nav a {
+    text-decoration: none;
+    color: #9a9a9a;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #6cda89;
+}
+
+nav li img {
+    margin-top: 6px;
+}
+
+.nav-logo {
+    float: left;
+    margin-top: 4px;
+    padding: 0px;
+}
+.imagine {
+    float: right; 
+    width: 200px; 
+    margin-left: 20px; 
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 0.8em; 
+}
+
+#coperta {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+}
+
+p.coperta {
+    margin-top: 5px; 
+}

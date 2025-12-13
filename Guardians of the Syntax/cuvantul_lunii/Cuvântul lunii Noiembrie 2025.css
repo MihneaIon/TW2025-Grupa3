@@ -307,3 +307,28 @@ nav li img {
     margin-top: 4px;
     padding: 0px;
 }
+.imagine {
+    /* Poziționează containerul în partea dreaptă a textului principal */
+    float: right; 
+    /* Setează o lățime fixă pentru zona imaginii și a textului asociat */
+    width: 200px; /* Ajustați lățimea după nevoie */
+    /* Adaugă spațiu în stânga și jos pentru a nu se lipi de textul din stânga */
+    margin-left: 20px; 
+    margin-bottom: 20px;
+    /* Aliniază textul din interiorul containerului la centru */
+    text-align: center;
+    /* Setează dimensiunea fontului pentru a se potrivi cu imaginea originală */
+    font-size: 0.8em; 
+}
+
+#coperta {
+    /* Asigură-te că imaginea ocupă toată lățimea containerului părinte */
+    max-width: 100%;
+    height: auto; /* Menține raportul de aspect */
+    display: block; /* Ajută la o mai bună aliniere */
+}
+
+/* Stil adițional pentru paragraful specific, dacă este necesar */
+p.coperta {
+    margin-top: 5px; /* Spațiu mic între imagine și text */
+}
