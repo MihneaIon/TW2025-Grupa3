@@ -120,6 +120,16 @@ h2 {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   
 }
+.offer-card {
+  height: 420px;
+
+}
+
+.offer-card img {
+  max-height: 200px;
+}
+
+
 
 .catalog-card:hover,
 .offer-card:hover {
