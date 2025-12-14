@@ -1,54 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="ro">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dexonline - Newsletter</title>
     <link rel="stylesheet" href="newsletter.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <table width="100%">
-        <tr>
-            <td align="left" valign="top">
-                <a href="../index/index.html">
-                    <img src="../index/poze index/logo.png" alt="Logo Dexonline" height="50" style="border:0;"> 
+    <nav class="nav-bar">
+        <ul class="nav-menu-left">
+              <li>
+                  <a href="../index/index.html" style="display: flex; align-items: center; margin-left: 80px;">
+                      <img src="../res_shared/logo.png" alt="Logo" style="height: 50px; width: auto;">
+                  </a>
+              </li>
+              
+              <li><a href="#">Despre noi ▼</a></li>
+              <li><a href="#">Implică-te</a></li>
+              <li><a href="#">Resurse</a></li>
+        </ul>
+
+        <ul class="nav-menu-right">
+              <li>
+                <a href="#"><img src="../res_shared/lang.png" alt="Lang" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="../res_shared/light.png" alt="Light" /></a>
+              </li>
+              <li class="no-padding-r">
+                <a href="#"><img src="../res_shared/person.png" alt="User" /></a>
+              </li>
+              <li class="no-padding">
+                <a href="#">Anonim</a>
+              </li>
+              <li>
+                <a href="../doneaza/doneaza.html">
+                    <button class="nav-donate">
+                        <img src="../res_shared/card.png" alt="" />
+                        Donează
+                    </button>
                 </a>
-                
-                &nbsp;&nbsp; 
-                <a href="#">Despre noi</a> | 
-                <a href="#">Implică-te</a> | 
-                <a href="#">Resurse</a>
-            </td>
+              </li>
+        </ul>
+    </nav>
 
-            <td align="right" valign="top">
-                <table align="right">
-                    <tr>
-                        <td>
-                            <details>
-                                <summary style="cursor: pointer;">🌐</summary>
-                                <ul class="meniu-limba" style="list-style-type: none; padding: 0; margin: 0; border: 1px solid #ccc; position: absolute; right: 100px;">
-                                    <li>✅ <a href="#">română</a></li>
-                                    <li>&nbsp;&nbsp;&nbsp;<a href="#">English</a></li>
-                                    <li>&nbsp;&nbsp;&nbsp;<a href="#">français</a></li>
-                                </ul>
-                            </details>
-                        </td>
-                        <td>
-                             &nbsp; ☀️ 👤 &nbsp;
-                        </td>
-                        <td>
-                            <a href="../doneaza/doneaza.html">
-                                 <button class="buton-galben" style="cursor: pointer;">Donează</button>
-                            </a>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+    <hr style="border-color: #333; margin-top: 0;">
 
-    <hr>
-
-    <div style="padding-left: 130px;">
+    <div style="padding-left: 130px; padding-top: 20px;">
 
         <p>
             <input type="text" placeholder="cuvânt..." style="width: 300px;" class="camp-text">
@@ -58,7 +61,13 @@
 
         <br>
 
-        <h2>Abonează-te la newsletter</h2>
+        <h2>
+            Abonează-te la newsletter
+             <img src="../index/poze index/plus.png" 
+                  alt="+" 
+                  style="height: 30px; vertical-align: middle; margin-left: 10px;">
+        </h2>
+
         <form>
             <input type="email" placeholder="adresa de email" style="width: 250px;" class="camp-text">
             <button type="submit" class="buton-verde">Mă abonez!</button>
@@ -88,7 +97,6 @@
             <li>3 martie 2025 <a href="#">jurnal de dicționar / martie 25</a> <span class="text-gri">(femeie, babe, familie, frumusețe, franceză, publicitate)</span></li>
             <li>3 februarie 2025 <a href="#">jurnal de dicționar / februarie 25</a> <span class="text-gri">(amor, Dragobete, Sf. Valentin, atlas lingvistic, dopamină, caligrafie, Octavian Mocanu)</span></li>
             <li>3 ianuarie 2025 <a href="#">jurnal de dicționar / ianuarie 25</a> <span class="text-gri">(top 2024, empatie, sudalme, cacofonie, lerui ler, onomastică de sezon)</span></li>
-
             <li>3 decembrie 2024 <a href="#">jurnal de dicționar / decembrie 24</a> <span class="text-gri">(predictibilitate, pleonasm, perisologie, siglă, logo, acronim, curcan, păcănele)</span></li>
             <li>3 noiembrie 2024 <a href="#">jurnal de dicționar / noiembrie 24</a> <span class="text-gri">(greșeli prezidențiabili, Halloween, ziua pastelor, Mihail și Gavriil, prenume, cuscus)</span></li>
             <li>3 octombrie 2024 <a href="#">jurnal de dicționar / octombrie 24</a> <span class="text-gri">(profesor, magister dixit, astrologie, Laurențiu Bașchir, OmniOpenCon)</span></li>
@@ -108,13 +116,12 @@
         <p>ISSN-L: 3091-0900</p>
     </div>
 
-    <div style="text-align: center;">
-        <hr> 
+    <div class="footer">
+        <hr />
         <p>Copyright © 2004-2025 dexonline (https://dexonline.ro)</p>
         <p>
-            <a href="#">licență</a> - 
-            <a href="#">confidențialitate</a> - 
-            găzduit de Hosterion
+            <a href="#">licență</a> • <a href="#">confidențialitate</a> • <span class="no-spacing">găzduit de
+            <a href="#">Hosterion</a></span>
         </p>
     </div>
 
