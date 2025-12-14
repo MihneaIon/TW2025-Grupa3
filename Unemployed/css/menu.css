@@ -116,6 +116,11 @@ nav {
     margin: 0 auto; 
     padding: 46px 23px; 
     text-align: center; 
+    flex: 3;
+    max-width: none; 
+    margin: 0;
+    padding-right: 20px;
+}
 }
 
 #products-grid { 
@@ -216,4 +221,62 @@ nav {
 h2{
     font-size: 1vw; 
     font-weight: bold;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 23px;
+}
+
+#sidebar {
+    flex: 1;
+    border-left: 2px solid #292929; 
+    padding: 46px 20px;
+    text-align: center;
+    background-color: #fff;
+    min-width: 300px; 
+}
+.sidebar-category {
+    margin-bottom: 60px;
+}
+
+.sidebar-category h1 {
+    font-size: 2.5vw; 
+    margin-bottom: 10px;
+    color: #292929;
+    font-weight: bold;
+}
+
+.sidebar-subtitle {
+    font-size: 0.9vw;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+    margin: 0 auto 10px;
+    color: #292929;
+}
+
+.sidebar-subtitle::before,
+.sidebar-subtitle::after {
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: #292929;
+    display: inline-block;
+}
+
+.sidebar-desc {
+    font-size: 0.8vw;
+    color: #707070;
+    max-width: 100%;
+    margin: 0 auto;
+    line-height: 1.4;
 }
