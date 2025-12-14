@@ -64,6 +64,7 @@ a:hover {
 
 .search-bar form {
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 0;
     max-width: 800px;
@@ -201,34 +202,29 @@ a:hover {
 }
 
 .footer {
-    padding-top: 12px;
-    max-width: 57%;
-    margin: auto;
-    font-size: 14px;
-    text-align: center;
+    text-align: center;      
+    margin-top: 50px;        
+    padding: 20px 0;         
+    font-size: 13px;         
+    color: black;
+    background-color: #fbfbfb; 
+    width: 100%;             
+    box-sizing: border-box;  
 }
 
-.footer p:last-of-type{
-    word-spacing: 5px;
-}
-
-.footer hr {
-    border: 1px solid #343434;
-}
-
-.no-spacing {
-    word-spacing: normal;
+.footer p {
+    margin: 5px 0;
 }
 
 .footer a {
     text-decoration: none;
-    color: #6cda89;
+    color: #49af8d; 
 }
 
 .footer a:hover {
     text-decoration: underline;
-    color: #56a06a;
 }
+
 
 @media (max-width: 768px) {
     .top-bar {
