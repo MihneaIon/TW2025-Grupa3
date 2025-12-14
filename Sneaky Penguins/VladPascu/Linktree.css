@@ -1,0 +1,178 @@
+
+
+:root{
+  --purple: #4a1b5d;
+  --teal: #00bfcf;
+  --pink: #e9c3f0;
+  --lime: #d7e700;
+  --panel-bg: #ffffff;
+  --muted: #6b6b6b;
+}
+
+* { box-sizing: border-box; }
+html,body { 
+    height:100%; 
+    margin:0; 
+    font-family:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial; }
+    
+
+body{
+  background: purple;
+  color: #111;
+  position: relative;
+  padding: 60px 24px 120px;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  left: -6%;
+  top: -6%;
+  width: 48vw;
+  height: 78vh;
+  background: radial-gradient(circle at 30% 20%, #00c6d0 0%, teal 45%, transparent 46%);
+  border-radius: 40% 60% 40% 60% / 40% 40% 60% 60%;
+  transform: rotate(-4deg);
+  opacity: 0.95;
+  z-index: 0;
+  
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  right: -8%;
+  bottom: -2%;
+  width: 36vw;
+  height: 36vw;
+  background: radial-gradient(circle at 60% 40%, #f1c8f4 0%, pink 50%, transparent 52%);
+  border-radius: 40% 60% 40% 60% / 50% 40% 60% 50%;
+  transform: rotate(6deg);
+  opacity: 0.95;
+  z-index: 0;
+} 
+
+/* HERO TITLE */
+h1 {
+  position: relative;
+  z-index: 2;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  color: #f5d6f0;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: clamp(28px, 5.5vw, 64px);
+  line-height: 1.02;
+  text-transform: none;
+  margin-bottom: 28px;
+  text-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+
+form {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 6px;
+  max-width: 900px;
+}
+
+
+form input[type="text"],form input[type="search"]{
+  width: 360px;
+  max-width: 60%;
+  min-width: 180px;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+  font-size: 15px;
+  color: #222;
+}
+
+
+form input::placeholder { color: #9b9b9b; font-weight: 500; }
+
+
+form button[type="submit"]{
+  display: inline-block;
+  border: 0;
+  cursor: pointer;
+  background: linear-gradient(180deg,lime 0%, #c4d900 100%);
+  color: #0b0b0b;
+  padding: 12px 20px;
+  border-radius: 28px;
+  font-weight: 700;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.22);
+  transition: transform .14s ease, box-shadow .14s ease;
+  font-size: 14px;
+}
+
+
+
+
+
+body > div {
+  position: relative;
+  z-index: 2;
+  margin: 54px auto 0;
+  width: min(94%, 1200px);
+  background: var(--panel-bg);
+  border-radius: 12px;
+  padding: 36px 44px;
+  box-shadow: 0 24px 60px rgba(8,8,8,0.28);
+  color: #222;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+}
+
+
+body > div ul > h1 {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111;
+}
+
+
+body > div ul li {
+  list-style: none;
+  margin: 8px 0;
+  color: gray;
+  font-size: 13px;
+}
+
+
+body > div ul { padding: 0; margin: 0; }
+
+
+body > div button {
+  margin-top: 18px;
+  margin-right: 8px;
+  border: 0;
+  background: #f2f2f2;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: none;
+  font-weight: 600;
+}
+
+
+
+/* image buttons (appstore/play) - make images scale */
+body > div button img {
+  display: inline-block;
+  width: 140px;
+  height: auto;
+  object-fit: contain;
+}
