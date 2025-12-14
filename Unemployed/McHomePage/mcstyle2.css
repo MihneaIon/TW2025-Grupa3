@@ -76,8 +76,6 @@ nav {
   display: block;
 }
 
-
-
 .overlay {
 
   color: white;
@@ -86,15 +84,13 @@ nav {
   top: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  
-  
+   
 }
 .p{
   font-size: 35px;
   color: white;
   text-align: center;
 }
-
 
 button {
   background: #ffce00;
