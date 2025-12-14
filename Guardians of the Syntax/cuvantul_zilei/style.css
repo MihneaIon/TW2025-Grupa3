@@ -17,6 +17,7 @@ nav {
     padding: 5px 100px;
     background-color: #212121;
     font-size: 16px;
+    height: 70px;
 }
 
 nav > *  {
@@ -87,6 +88,16 @@ nav button {
     border: none;
 }
 
+nav button:hover {
+    background-color: #d9b543;
+}
+
+nav button:focus {
+  background-color: #d9b543;
+  border-color: #ccaa3f;
+  box-shadow: 0 0 0 0.25rem rgba(219, 184, 70, 0.5);
+}
+
 .nav-menu-right {
     position: absolute;
     right: 5%;
@@ -122,6 +133,19 @@ nav button {
 
 #search:focus {
     border-color: #6cda89;
+    box-shadow: 0 0 4px 0.1rem rgba(108, 218, 137, 0.25);
+    outline: none;
+}
+
+.search-bar button:hover {
+    background-color: #5cb974;
+    border-color: #56ae6e;
+}
+
+.search-bar button:focus {
+    border-color: #6cda89;
+    box-shadow: 0 0 0 0.30rem rgba(108, 218, 137, 0.25);
+    outline: none;
 }
 
 .search-bar button {

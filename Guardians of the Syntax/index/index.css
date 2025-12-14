@@ -1,0 +1,167 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212; 
+    color: #eeeeee;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+
+.nav-bar {
+    padding: 5px 20px;
+    background-color: #212121; 
+    font-size: 16px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.nav-menu-left, .nav-menu-right {
+    display: flex;
+    align-items: center;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar li {
+    padding: 0px 10px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #9a9a9a; 
+    font-weight: bold;
+}
+
+.nav-bar a:hover {
+    color: #6cda89; 
+}
+
+.nav-bar img {
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+.nav-donate {
+    background-color: #ffd54f;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-donate:hover {
+    background-color: #d9b543;
+}
+
+.no-padding { padding: 0px; }
+.no-padding-r { padding-right: 0px; }
+
+
+
+.content {
+    padding-top: 12px;
+    max-width: 1200px; 
+    margin: auto;
+    width: 90%;
+}
+
+
+.footer {
+    padding-top: 12px;
+    max-width: 60%;
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #818181;
+}
+.footer hr { border: 1px solid #343434; }
+.footer a { text-decoration: none; color: #6cda89; }
+
+
+
+
+
+h2, h3 {
+    color: #ffffff;
+    margin-top: 0;
+}
+
+
+.content a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.content a:hover {
+    text-decoration: underline;
+}
+
+
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 8px;
+    color: #e0e0e0;
+}
+
+
+.search-input {
+    background-color: #1e1e1e;
+    border: 1px solid #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.search-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px #4CAF50;
+}
+
+
+.btn-cauta {
+    background-color: #4CAF50;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.card-roz:hover { border-color: #ff69b4; box-shadow: 0 0 10px #ff69b4; transition: 0.3s; }
+.card-albastru:hover { border-color: #2196F3; box-shadow: 0 0 10px #2196F3; transition: 0.3s; }
+.card-verde:hover { border-color: #4CAF50; box-shadow: 0 0 10px #4CAF50; transition: 0.3s; }
+.card-galben:hover { border-color: #FFC107; box-shadow: 0 0 10px #FFC107; transition: 0.3s; }
+.card-rosu:hover { border-color: #f44336; box-shadow: 0 0 10px #f44336; transition: 0.3s; }
+.card-mov:hover { border-color: #9c27b0; box-shadow: 0 0 10px #9c27b0; transition: 0.3s; }
+
+
+.card-galben, .card-galben p, .card-galben h3 {
+    color: white !important;
+}
+
+
+.card ul {
+    padding-left: 20px;
+    color: #4CAF50;
+}
+.card li {
+    color: #cccccc;
+}
