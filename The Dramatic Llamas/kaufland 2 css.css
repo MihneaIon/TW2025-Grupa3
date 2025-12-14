@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    background: #fff;
+}
+
+#pagina {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    min-width: 720px;
+}
+
+
+#titlu h1 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+#titlu p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.dala {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #eee;
+    border: 1px solid #ccc;
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.dala-2 {
+    background: #333;
+    color: #fff;
+}
+
+
+#cauta {
+    margin-top: 30px;
+}
+
+#cauta .left {
+    float: left;
+    width: 35%;
+    padding-right: 20px;
+}
+
+#cauta .right {
+    float: left;
+    width: 65%;
+}
+
+#cauta img {
+    width: 100%;
+    display: block;
+    border: 1px solid #ddd;
+}
+
+.cutie {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+
+#idei {
+    margin-top: 40px;
+}
+
+#idei .idei-stanga {
+    width: 55%;
+    float: left;
+    padding-right: 20px;
+}
+
+#idei .idei-dreapta {
+    width: 45%;
+    float: left;
+}
+
+#idei img {
+    width: 100%;
+    display: block;
+    border: 1px solid #ddd;
+}
+
+
+#Retete {
+    margin-top: 40px;
+}
+
+.retete {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+}
+
+.retete img {
+    width: 100%;
+    display: block;
+    border: 1px solid #ddd;
+}
+
+#retete-2 {
+    margin-top: 40px;
+}
+
+.ciudate {
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+}
+
+.ciudate img {
+    width: 100%;
+    display: block;
+    border: 1px solid #ddd;
+}
