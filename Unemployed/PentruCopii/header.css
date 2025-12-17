@@ -1,0 +1,19 @@
+.header-full {
+  width: 100%;
+  background: white;
+}
+
+header {
+  padding: 16px 0; /* nu lateral */  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo img {
+  height: 60px;
+  object-fit: contain;
+}

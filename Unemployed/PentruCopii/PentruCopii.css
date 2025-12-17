@@ -1,0 +1,132 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f8f8f8;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.content-section p {
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 12px 24px;
+    background: #000000;
+    color: #fff;
+    border: none;
+    font-size: large;
+    align-self: center;
+    display: block;
+    margin: 20px auto 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-full {
+    width: 100%;
+    background: white;
+}
+
+header {
+    padding: 16px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo img {
+    height: 60px;
+    object-fit: contain;
+}
+
+#nav-links {
+    display: flex;
+    gap: 28px;
+    list-style: none;
+}
+
+#nav-links a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+#nav-separator {
+    margin-top: 10px;
+    opacity: 0.2;
+}
+
+#zona-promotii {
+    padding: 40px 0;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 24px;
+}
+
+.p {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.footer-grid {
+    margin-top: 50px;
+    padding: 40px;
+    background: #f2f2f2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer-grid ul li {
+    margin: 6px 0;
+}
+
+.footer-grid .right {
+    text-align: right;
+}
+
+#donate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#finbanner{
+    background-image: url("banner.jpg");
+    background-size: cover;        
+  background-position: center; 
+  background-repeat: no-repeat;
+}
